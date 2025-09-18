@@ -1,0 +1,86 @@
+
+body {
+    background-color: #eeecd9;
+    color: #111;
+}
+
+blockquote {
+    margin-left: 2em;
+    padding-left: 2em;
+    border-left: 5px solid #5f9ea0;
+}
+
+blockquote > footer {
+    font-style: italic;
+}
+
+.navbar {
+  background-color: #333333;
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+    color: #e7e7e7;
+    text-decoration: none;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items:center;
+}
+
+.navbar ul a:hover,
+.navbar ul a:focus {
+  background-color: #272727;
+}
+
+
+.navbar ul li a {
+  color: #e7e7e7;
+  padding: 12px;
+  display: block;
+}
+
+.aboutmain{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+}
+
+/* add media query for growing and shrinking */
+@media (max-width: 650px) {
+  .aboutmain {
+      flex-wrap: wrap;
+  }
+}
+
+.profileimg {
+    width: 200px;
+    height: auto;
+    padding-right: 10px;
+}
+.abouttext {
+   margin-left:5px;
+}
+
+
+/* main index file stuff */
+
+.arts {
+    list-style-type: none;
+}
+
+.arts .date {
+    padding-right: 1em;
+    /* font-style: italic; */
+    color: black;
+}
+
+.arts a {
+    text-decoration: none;
+}
